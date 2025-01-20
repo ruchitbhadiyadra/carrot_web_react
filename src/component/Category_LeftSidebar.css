@@ -1,0 +1,293 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.py-100 {
+    padding: 100px 0 !important;
+}
+
+/* shop */
+
+.cr-shop-sideview {
+    padding: 24px;
+    background-color: #f7f7f8;
+    border: 1px solid #e9e9e9;
+    border-radius: 5px;
+    position: sticky;
+    top: 30px;
+}
+
+h4.cr-shop-sub-title {
+    margin-bottom: 0px;
+    padding-bottom: 10px;
+    font-family: "Poppins, sans-serif";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.6;
+    color: #2b2b2d;
+    text-transform: capitalize;
+    border-bottom: 1px solid #e9e9e9;
+}
+
+.cr-checkbox {
+    padding-top: 28px;
+}
+
+.cr-checkbox .checkbox-group:not(:last-child) {
+    margin-bottom: 15px;
+}
+
+.cr-checkbox .checkbox-group input {
+    height: initial;
+    width: initial;
+    margin-bottom: 0;
+    padding: 0;
+    cursor: pointer;
+    display: none;
+}
+
+.cr-checkbox .checkbox-group input:checked + label::after {
+    content: '';
+    width: 6px;
+    height: 9px;
+    display: block;
+    position: absolute;
+    top: 4px;
+    left: 6px;
+    border: solid #64b464;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+}
+
+.cr-checkbox .checkbox-group label {
+    font-family: "Poppins, sans-serif";
+    font-size: 14px;
+    color: #7a7a7a;
+    cursor: pointer;
+    text-transform: capitalize;
+    display: inline-block;
+}
+
+.cr-checkbox .checkbox-group label::before {
+    content: '';
+    margin-right: 10px;
+    margin-top: -4px;
+    padding: 8px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    border-radius: 5px;
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.cr-checkbox .checkbox-group span {
+    font-family: "Poppins, sans-serif";
+    font-size: 12px;
+    color: #7a7a7a;
+    position: absolute;
+    right: 0;
+}
+
+.cr-shop-price {
+    padding-top: 25px;
+}
+
+.cr-shop-price .price-range-slider {
+    width: 100%;
+    margin-top: 30px;
+}
+
+.cr-shop-price .price-range-slider .range-bar {
+    height: 3px;
+    width: 100%;
+    margin-left: 8px;
+    border: none;
+    background-color: #e9e9e9;
+}
+
+.cr-shop-price .price-range-slider .range-value {
+    margin: 20px 0 20px 0;
+    display: flex;
+}
+
+.cr-shop-price .price-range-slider .range-value label {
+    font-family: "Poppins, sans-serif";
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 1.2;
+    color: #000;
+}
+
+.cr-shop-price .price-range-slider .range-value input {
+    width: calc(100% - 50px);
+    padding-left: 6px;
+    background: none;
+    font-family: "Poppins, sans-serif";
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 1.2;
+    color: #7a7a7a;
+    box-shadow: none;
+    border: none;
+    outline: none;
+}
+
+.cr-shop-color, .cr-shop-weight, .cr-shop-tags {
+    padding-top: 25px;
+}
+
+.cr-shop-color .blue {
+    background-color: #6c9eff;
+}
+
+.cr-shop-color .yellow {
+    background-color: #dede44;
+}
+
+.cr-shop-color .red {
+    background-color: #fb5555;
+}
+
+.cr-shop-color .green {
+    background-color: #64b496;
+}
+
+.cr-shop-color span {
+    height: 20px;
+    width: 20px;
+    border-radius: 5px;
+}
+
+.cr-shop-tags .cr-shop-tags-inner {
+    padding-top: 25px;
+}
+
+ul.cr-tags {
+    margin: -5px;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul.cr-tags li button {
+    transition: all 0.3s ease-in-out;
+    height: 32px;
+    padding: 0 15px;
+    margin: 5px;
+    font-family: "Poppins, sans-serif";
+    font-size: 14px;
+    background-color: #fff;
+    color: #7a7a7a;
+    border: 1px solid #e9e9e9;
+    line-height: 30px;
+    display: inline-block;
+    text-transform: capitalize;
+}
+
+.cr-shop-bredekamp {
+    margin-bottom: 30px;
+    background-color: #f7f7f8;
+    border: 1px solid #e9e9e9;
+    border-radius: 5px;
+}
+
+.cr-shop-bredekamp .cr-toggle {
+    margin: 5px;
+}
+
+.cr-shop-bredekamp .cr-toggle .gridCol {
+    margin-right: 5px;
+    height: 35px;
+    width: 35px;
+}
+
+.active-grid {
+    background-color: #64b464;
+    color: #fff !important;
+    border-radius: 5px;
+    border: 1px solid #e9e9e9;
+}
+
+.cr-shop-bredekamp .cr-toggle .gridRow {
+    background-color: #fff;
+    border: 1px solid #e9e9e9;
+    border-radius: 5px;
+}
+
+.cr-shop-bredekamp .cr-toggle a {
+    height: 35px;
+    width: 35px;
+    color: #000;
+}
+
+.cr-shop-bredekamp .center-content {
+    flex: 1;
+}
+
+.cr-shop-bredekamp .center-content span {
+    padding: 0 12px;
+    font-family: "Poppins, sans-serif";
+    font-size: 14px;
+    line-height: 1.875;
+    color: #7a7a7a;
+}
+
+.cr-shop-bredekamp .cr-select {
+    height: 35px;
+    margin: 5px;
+    padding: 3px 0 3px 15px;
+    background-color: #fff;
+    border: 1px solid #e9e9e9;
+    border-radius: 5px;
+}
+
+.cr-shop-bredekamp .cr-select label {
+    font-family: "Poppins, sans-serif";
+    font-size: 15px;
+    line-height: 1.7;
+    color: #7a7a7a;
+}
+
+.cr-shop-bredekamp .cr-select select {
+    padding: 0 2rem 0 0.8rem;
+    font-family: "Poppins, sans-serif";
+    font-size: 15px;
+    background-size: 10px;
+    line-height: 1.2;
+    color: #7a7a7a;
+    width: auto;
+    border: none;
+    cursor: pointer;
+    box-shadow: none;
+}
+
+.cr-pagination {
+    margin-top: 24px;
+}
+
+.cr-pagination .pagination .disabled span {
+    background-color: #f7f7f8;
+}
+
+.cr-pagination .page-link {
+    color: #777;
+    border-color: #e9e9e9;
+    box-shadow: none;
+}
+
+.cr-pagination .active > .page-link, .cr-pagination .page-link.active {
+    background-color: #64b496;
+    border-color: #64b496;
+    color: #fff;
+}
+
+.cr-shop-bredekamp .cr-toggle .shop_side_view {
+    margin-right: 5px;
+    background-color: #fff;
+    border: 1px solid #e9e9e9;
+    border-radius: 5px;
+}

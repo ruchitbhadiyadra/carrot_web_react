@@ -1,0 +1,97 @@
+/* header */
+
+header .top-header {
+    padding: 20px 0;
+    grid-gap: 10px;
+    border-bottom: 1px solid #e9e9e9;
+    z-index: 4;
+}
+
+header .top-header .cr-logo .logo {
+    width: 115px;
+    height: 35px;
+}
+
+header .top-header .cr-search .search-input {
+    width: 600px;
+    height: 45px;
+    padding-left: 15px;
+    padding-right: 175px;
+    border: 1px solid #64b496;
+    border-radius: 5px;
+    outline: none;
+}
+
+header .top-header .cr-search .form-select {
+    width: 130px;
+    height: 43px;
+    border: 0;
+    top: 1px;
+    right: 45px;
+    font-size: 13px;
+    border-left: 1px solid #64b496 !important;
+    border-radius: 0;
+}
+
+header .top-header .cr-search .search-btn {
+    width: 45px;
+    background-color: #64b496;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    height: 44px;
+}
+
+header .top-header .cr-search .search-btn {
+    font-size: 14px;
+    color: #fff;
+}
+
+header .top-header .cr-search .search-btn .search {
+    font-size: 14px;
+    color: #fff;
+}
+
+header .top-header .cr-right-bar ul.Dropdown {
+    margin: auto;
+}
+
+header .top-header .cr-right-bar .cr-right-bar-item:not(:last-child) {
+    padding-right: 30px !important;
+}
+
+header .top-header .cr-right-bar .nav-item a.nav-link {
+    font-family: "Poppins, sans-serif";
+    font-size: 14px;
+    font-weight: 500;
+    color: #000;
+}
+
+header .top-header .cr-right-bar .nav-item .dropdown-toggle{
+    transition: 0.3s ease-in-out;
+}
+
+header .top-header .cr-right-bar .nav-item .nav-link .user {
+    padding-right: 5px;
+    font-size: 21px;
+    line-height: 17px;
+}
+
+.top-header .cr-right-bar .cr-right-bar-item {
+    transition: 0.3s ease-in-out;
+}
+
+.top-header .cr-right-bar-item .heart, .top-header .cr-right-bar-item .shopping {
+    padding-right: 5px;
+    font-size: 21px;
+    line-height: 17px;
+    color: #000;
+}
+
+.top-header .cr-right-bar .cr-right-bar-item span {
+    transition: 0.3s ease-in-out;
+    font-family: "Poppins, sans-serif";
+    font-size: 15px;
+    line-height: 15px;
+    font-weight: 500;
+    color: #000;
+}

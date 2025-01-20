@@ -1,0 +1,106 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.cr-track .cr-track-box {
+    border-radius: 5px;
+}
+
+.cr-track .cr-track-card {
+    height: 100%;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid #e9e9e9;
+    border-radius: 5px;
+    color: #777;
+    text-align: center;
+    font-size: 15px;
+    background-color: #f7f7f8;
+}
+
+.cr-track .cr-track-card .cr-track-title {
+    margin-bottom: 5px;
+    color: #2b2b2d;
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.cr-track .cr-steps {
+    margin-top: 24px;
+    border: 1px solid #e9e9e9;
+    border-radius: 5px;
+}
+
+.cr-track .cr-steps-body {
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+}
+
+.cr-track .cr-step.cr-step-completed {
+    background-color: #f7f7f8;
+}
+
+.cr-track .cr-step {
+    padding: 30px 15px;
+    display: table-cell;
+    position: relative;
+    transition: all 0.25s ease-in-out;
+    border-right: 1px solid #e9e9e9;
+    color: #777;
+    font-weight: 400;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.cr-track .cr-step-completed .cr-step-indicator {
+    border-color: transparent;
+    background-color: #64b496;
+    color: #fff;
+    line-height: 1.25rem;
+}
+
+.cr-track .cr-step-indicator {
+    display: block;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    width: 1.5rem;
+    height: 1.5rem;
+    border: 1px solid #e9e9e9;
+    border-radius: 50%;
+    font-size: 0.875rem;
+    text-align: center;
+}
+
+.cr-track .cr-step-completed .cr-step-indicator .check {
+    line-height: 23px;
+}
+
+.cr-track .cr-step-icon {
+    display: block;
+    width: 1.5rem;
+    height: 1.5rem;
+    margin: 0 auto;
+    margin-bottom: 0.75rem;
+    transition: all 0.25s ease-in-out;
+    color: #999;
+    font-size: 22px;
+}
+
+.cr-track .cr-step-active {
+    color: #2b2b2d;
+    pointer-events: none;
+    cursor: default;
+    font-weight: 500;
+}
+
+.cr-track .cr-step-active .cr-step-icon {
+    color: #64b496;
+}

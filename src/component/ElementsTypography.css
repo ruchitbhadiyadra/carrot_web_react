@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* section 1 */
+
+.typography h1, .typography h2, .typography h3, .typography h4, .typography h5 {
+    margin-bottom: 30px;
+    font-family: "Montserrat";
+}
+
+.typography h1 {
+    font-size: 38px;
+}
+
+.typography .cr-fc {
+    color: #2b2b2d;
+}
+
+.typography .cr-fw-normal {
+    font-weight: 500;
+}
+
+.typography .cr-fw-bold {
+    font-weight: 700;
+}
+
+.typography .cr-lb {
+    padding-left: 10px;
+    border-left: 5px solid;
+}
+
+.typography .cr-rb {
+    padding-right: 10px;
+    border-right: 5px solid;
+    text-align: right;
+}
+
+/* section 2 */
+
+.typography .cr-disc, .typography .cr-decimal, .typography .cr-alpha, .typography .cr-roman, .typography .cr-greek, .typography .cr-hebrew {
+    padding: 5px 20px;
+    margin-bottom: 0;
+    color: #777;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: justify;
+    letter-spacing: 1px;
+    font-family: "Manrope", sans-serif;
+}
+
+.typography .cr-disc li {
+    margin-bottom: 15px;
+    list-style-type: disc;
+}
+
+.typography .cr-decimal li {
+    margin-bottom: 15px;
+    list-style-type: decimal;
+}
+
+.typography .cr-alpha li:not(:last-child) {
+    margin-bottom: 15px;
+}
+
+.typography .cr-alpha li {
+    list-style-type: upper-alpha;
+}
+
+.typography .cr-roman li {
+    margin-bottom: 15px;
+    list-style-type: upper-roman;
+}
+
+.typography .cr-greek li:not(:last-child) {
+    margin-bottom: 15px;
+}
+
+.typography .cr-greek li {
+    list-style-type: lower-greek;
+}
+
+.typography .cr-hebrew li {
+    margin-bottom: 15px;
+    list-style-type: hebrew;
+}
